@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Added to vertically center the items */
+    color: white;
+
+    font-size: larger;
+}
+.menuicon {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+
+.listItems {
+    display: flex; /* Added to make the list items side by side */
+    justify-content: center; /* Added to horizontally center the items */
+    list-style-type: none;
+}
+
+.listItems li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
