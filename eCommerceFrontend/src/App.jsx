@@ -1,5 +1,5 @@
-import Header from './components/Header'
-import HomeBody from './components/HomeBody'
+import Header from './components/Header/Header.jsx'
+import HomeBody from './components/HomeBody/HomeBody.jsx'
 import './App.css'
 
 function App() {

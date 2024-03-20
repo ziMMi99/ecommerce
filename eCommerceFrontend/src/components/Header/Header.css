@@ -1,0 +1,38 @@
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    font-size: larger;
+    direction: ltr;
+    flex-direction: row-reverse;
+}
+
+.title {
+
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 0.9em;
+    margin-left: 100px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    margin-right: 100px;
+
+}
+
+.shoppingCartIcon, .menuicon {
+    margin-left: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
