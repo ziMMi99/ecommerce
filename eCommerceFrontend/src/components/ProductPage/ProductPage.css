@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 .productpage {
     display: flex;
     flex-direction: column;

@@ -27,14 +27,15 @@ function Header() {
                         anchorEl={anchorEl}
                         open={Boolean(anchorEl)}
                         onClose={handleClose}
-
                     >
                         <MenuItem onClick={handleClose}>Home</MenuItem>
                         <MenuItem onClick={handleClose}>About</MenuItem>
                         <MenuItem onClick={handleClose}>Contact</MenuItem>
                     </Menu>
                 </div>
-                <div className='shoppingCartIcon'><a href=''><ShoppingCartIcon /></a></div>
+                <div className='shoppingCartIcon'>
+                    <a href=''><ShoppingCartIcon /></a>
+                </div>
             </div>
             <div className='title'><a href="#">Revss</a></div>
         </nav>

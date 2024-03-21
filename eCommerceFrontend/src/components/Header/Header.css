@@ -17,6 +17,7 @@
     text-shadow: 2px 2px 4px #000000;
     font-size: 1.1em;
     margin-left: 100px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .title:hover {
@@ -35,6 +36,7 @@
 
 .shoppingCartIcon, .menuicon {
     margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .shoppingCartIcon:hover, .menuicon:hover {
