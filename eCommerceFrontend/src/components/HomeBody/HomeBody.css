@@ -3,31 +3,52 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(49, 52, 53, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(49, 52, 53, 1) 100%);
-  background: -o-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(49, 52, 53, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313435', endColorstr='#000000', GradientType=0 );
-  background: -ms-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(49, 52, 53, 1) 100%);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(49, 52, 53, 1) 100%);
+  background-color: #121315;
 }
-
 .homebodytitle {
   text-align: center;
   order: 1;
   align-items: center;
   justify-content: center;
+  justify-content: center;
   color: white;
+  margin: auto;
+  margin-top: 100px;
+  width: 50%;
+  font-size: xx-large;
 }
 
 .homebodytext {
   order: 2;
-  font-size: 0.8em;
-  margin: 0 auto; /* Changed from 0 to 0 auto */
+  font-size: 0.7em;
+  margin: 0 auto;
   padding: 0;
-  width: 70%; /* Adjust as needed */
+  width: 40%;
   text-align: center;
   align-items: center;
   justify-content: center;
   color: white;
+}
 
+.homebodybutton {
+  order: 3;
+  text-align: center;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 150px; 
+}
+
+.bodybutton {
+  background-color: transparent;
+  border: 2px solid #c5fcfc;
+  border-radius: 9999px;
+  color: #c5fcfc;
+  padding: 20px;
+  font-size: large;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bodybutton:hover {
+  color: white;
+  transform: scale(1.1);
 }
