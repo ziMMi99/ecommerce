@@ -15,7 +15,7 @@ function HomeBody() {
                 </h2>
             </div>
             <div className='homebodybutton'>
-                <button className='bodybutton' onClick={() => document.getElementById('scrolltotarget1').scrollIntoView({block: 'end', behavior: 'smooth'})}>
+                <button className='bodybutton' onClick={() => document.getElementById('scrolltotarget1').scrollIntoView({block: 'start', behavior: 'smooth'})}>
                     Explore products
                     </button>
                 </div>
