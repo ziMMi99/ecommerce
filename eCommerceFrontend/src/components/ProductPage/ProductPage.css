@@ -2,27 +2,29 @@ html {
   scroll-behavior: smooth;
 }
 
+
 .productpage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    flex-wrap: wrap;
+  background-color: #121315;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
 }
 
 .productpagetitle {
-    color: white;
-    text-align: center;
-    justify-content: center;
-    font-size: large;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
 }
 
 .cat-btn {
@@ -85,7 +87,7 @@ html {
   justify-content: space-between;
   align-items: center; /* Add this line */
   width: 100%; /* Adjust as needed */
-  
+
 }
 
 .mouse-products {

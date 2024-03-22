@@ -19,6 +19,7 @@ function HomeBody() {
                     Explore products
                     </button>
                 </div>
+
         </div>
     );
 }
