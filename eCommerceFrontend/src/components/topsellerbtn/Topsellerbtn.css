@@ -1,0 +1,58 @@
+
+.explorebtns {
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.cat-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.cat-btn a {
+    text-decoration: none;
+    color: #c5fcfc;
+}
+
+.cat-btn button:hover {
+    transform: scale(1.1);
+}
+
+.cat-btn button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid #c5fcfc;
+    border-radius: 9999px;
+    color: #c5fcfc;
+    font-size: large;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-title {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 70%;
+    margin: auto;
+
+}
+
+.product-text {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+
+}

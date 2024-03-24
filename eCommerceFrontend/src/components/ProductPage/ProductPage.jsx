@@ -4,20 +4,8 @@ function ProductPage() {
 
   return (
     <div className='productpage'>
-      <div className="productpagetitle" id='scrolltotarget1'>
-        <h1>
-          Explore our topsellers
-        </h1>
-        <div className='cat-btn'>
-          <button onClick={() => document.getElementById('mouse-title').scrollIntoView({block:'center', behavior: 'smooth'})}>Mouse</button>
-          <button onClick={() => document.getElementById('keyboard-title').scrollIntoView({block:'center', behavior: 'smooth'})}>Keyboards</button>
-          <button onClick={() => document.getElementById('chair-title').scrollIntoView({block:'center', behavior: 'smooth'})}>Chairs</button>
-          <button onClick={() => document.getElementById('wristrest-title').scrollIntoView({block:'center', behavior: 'smooth'})}>Wrist Rest</button>
-          <button onClick={() => document.getElementById('desk-title').scrollIntoView({block:'center', behavior: 'smooth'})}>Desks</button>
-        </div>
-      </div>
   <div className='product-titles'>
-        <h1>Mouse</h1>
+        <h1>Mouses</h1>
     <div className='mouse-products'>
       <div className='product-container' id='mouse-title'>
         <img src="https://placehold.co/200x150" alt="Logitech" />
@@ -172,7 +160,7 @@ function ProductPage() {
         </div>
       </div>
     </div>
-    </div>   
+    </div>
   </div>
   );
 }

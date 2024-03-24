@@ -20,42 +20,6 @@ html {
   flex-wrap: wrap;
 }
 
-.productpagetitle {
-  color: white;
-  text-align: center;
-  justify-content: center;
-  font-size: large;
-}
-
-.cat-btn {
-  display: flex;
-  justify-content: space-around;
-}
-
-.cat-btn a {
-  text-decoration: none;
-  color: #c5fcfc;
-}
-
-.cat-btn button:hover {
-  transform: scale(1.1);
-}
-
-.cat-btn button {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-  width: 200px;
-  margin: 10px;
-  background-color: transparent;
-  border: 2px solid #c5fcfc;
-  border-radius: 9999px;
-  color: #c5fcfc;
-  font-size: large;
-  transition: transform 0.3s ease-in-out;
-}
-
 .products {
     display: flex;
     flex-direction: column;
@@ -71,7 +35,6 @@ html {
   color: white;
   font-size: large;
   text-align: center;
-  margin-top: 400px;
 }
 
 .product-container {

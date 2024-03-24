@@ -1,5 +1,4 @@
 import './HomeBody.css'
-import image from '../../assets/mx-master-3s-mouse-top-view-graphite.png';
 function HomeBody() {
     return (
         <div className='homebody'>
