@@ -2,6 +2,14 @@ import './ProductPage.css'
 
 function ProductPage() {
 
+  const handleClick=(e)=>{
+    e.preventDefault();
+    fecth('http://localhost:8080/products/addtocart', {
+      method: 'POST',
+      headers: {"Content-Type": "application/json"},
+      body: ({product: e.target.value})
+      })
+
   return (
     <div className='productpage'>
   <div className='product-titles'>
