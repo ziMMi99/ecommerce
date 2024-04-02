@@ -2,14 +2,14 @@ import './Topsellerbtn.css';
 
 function Topsellerbtn() {
     return (
-    <div className="explorebtns" id='scrolltotarget1'>
+    <div className="explorebtns">
         <h1>Explore our topsellers</h1>
-        <div className='cat-btn'>
-            <button>Mouse</button>
-            <button >Keyboards</button>
-            <button >Chairs</button>
-            <button >Wrist Rest</button>
-            <button >Desks</button>
+        <div className='cat-btn' id='scrolltotarget1'>
+            <button onClick={() => document.getElementById('mouse-title').scrollIntoView({block: 'center', behavior: 'smooth'})}>Mouses</button>
+            <button onClick={() => document.getElementById('keyboard-title').scrollIntoView({block: 'center', behavior: 'smooth'})}>Keyboards</button>
+            <button onClick={() => document.getElementById('chair-title').scrollIntoView({block: 'center', behavior: 'smooth'})}>Chairs</button>
+            <button onClick={() => document.getElementById('wristrest-title').scrollIntoView({block: 'center', behavior: 'smooth'})}>Wrist Rest</button>
+            <button onClick={() => document.getElementById('desk-title').scrollIntoView({block: 'center', behavior: 'smooth'})}>Desks</button>
         </div>
 
         <div className='product-title'>

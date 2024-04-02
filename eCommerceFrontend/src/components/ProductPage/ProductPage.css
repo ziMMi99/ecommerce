@@ -53,6 +53,10 @@ html {
 
 }
 
+.product-titles button:hover {
+  cursor: pointer;
+}
+
 .mouse-products {
   display: flex;
   justify-content: center;

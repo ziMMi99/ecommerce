@@ -1,17 +1,18 @@
-import Home from './sites/Home'
-import Products from './sites/Products'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
+import ProductPage from './components/ProductPage/ProductPage.jsx'
+import Header from './components/Header/Header.jsx'
+import Homebody from './components/HomeBody/HomeBody.jsx'
+import Topssellerbtn from './components/topsellerbtn/Topsellerbtn.jsx'
 
 function App() {
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/products" element={<Products/>} />
-      </Routes>
-    </Router>
+    <>
+      <Header></Header>
+      <Homebody></Homebody>
+      <Topssellerbtn></Topssellerbtn>
+      <ProductPage></ProductPage>
+    </>
   )
 }
 
